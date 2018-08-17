@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- <base href="/"> -->
+
+	<title>OptimizedHTML 4</title>
+	<meta name="description" content="">
+
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+	<!-- Template Basic Images Start -->
+	<meta property="og:image" content="path/to/image.jpg">
+	<link rel="icon" href="img/favicon/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon-180x180.png">
+	<!-- Template Basic Images End -->
+	
+	<!-- Custom Browsers Color Start -->
+	<meta name="theme-color" content="#000">
+	<!-- Custom Browsers Color End -->
+
+	<link rel="stylesheet" href="css/main.min.css">
+
+</head>
+
+<body>
+	<header class="main_head" style="background-image: url(img/forms/bg_over.png);">
+		<div class="logo_wrap">
+			<img src="img/Logo.png" alt="logo">
+		</div>
+		<a href="#" class="log_in but_custom">Log In Now</a>
+		<div class="header_content">
+			<h1>Home of Dentistry</h1>
+			<p>Denteez was created by dentists for dentistry in prder to</p>
+			<p>make the little pf everyone involved in dentistry easier.</p>
+		</div>
+	</header>
+	<main class="main_content" style="background-image: url(img/forms/BG.png);">
+		<div class="form_wrap">
+			<form class="form">
+				<span class="warner">Fields marked “*” are required</span>
+				<label> Enquiry Type *
+					<select id="select_all">
+						<option value="1">Other</option>
+					</select>
+				</label>
+				<label>
+					<span class="arrow_inp">
+						<img src="img/forms/Arrow.png" alt="arrow">
+					</span>
+					<input type="text" placeholder="Other" id="other_type" class="other_type" name="other">
+				</label>
+				<label class="name_input">Name *
+					<input type="text" placeholder="Dentist" id="name" name="name">
+					<span class="validate_name">Please enter a valid name!</span>
+				</label>
+				<label class="email_input">Email *
+					<input type="email" placeholder="racheIm@gmail.com" id="email" name="email">
+					<span class="validate_email">Please enter a valid email address!</span>
+				</label>
+				<label>Subject *
+					<input type="text" required name="subject">
+				</label>
+				<label>Description* <span class="count">(<span id="count_num">0</span>/1000)</span>
+					<textarea id="descr" cols="30" rows="10" maxlength="1000" required name="desciption"></textarea>
+				</label>
+				<div class="input_fields">
+					<input type="file" id="upload-1-file" accept=".jpeg,.png,.jpg"/>
+					<img id="upload-1" src="" alt="" />
+						<span class="plus_add">Add Photo</span>
+						<span class="plus">Minimum size of 300x300 jpeg ipg png 5 MB</span>
+						<span class="error">The photo does not meet the requirements</span>
+					<div class="remove-asoc"><span>&times;</span></div>
+				</div>
+				<button class="but_custom" id="send">Submit</button>
+			</form>
+		</div>
+	</main>
+	<footer class="main_foot">
+		<h2>About Denteez</h2>
+		<div class="foot_content">
+			<div>
+				
+			<p class="right_content">Why is it always so difficult to find what you are looking for in dentistry? Whether it is the latest advancement in technology or techniques or simply a review or understanding of the vast amount of products? Perhaps finding someone to just fix your broken equipment or simply hiring new staff or looking for that new job?</p>
+			</div>
+			<div>
+				
+			<p class="left_content">Our mission is to give every dental professional the possibility to discuss and share all aspects of their profession, their practice and their business. We aim to make the world of dentistry easy and accessible, so every dental professional can find what they are looking for quickly and easily all in one place.</p>
+			</div>
+		</div>
+		<div class="foot_end">
+			<p>Denteez Copyright 2015</p>
+			<ul>
+				<li><a href="#">Support</a></li>
+				<li><a href="#">Privacy Policy</a></li>
+				<li><a href="#">Terms of use</a></li>
+			</ul>
+		</div>	
+	</footer>
+	<script src="js/scripts.min.js"></script>
+
+</body>
+</html>
